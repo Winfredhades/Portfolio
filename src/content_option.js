@@ -1,23 +1,23 @@
-const logotext = "JOHN";
+const logotext = "ENES";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Muhammed Enes EYIBILEN",
+    description: "I’m Enes Eyibilen Full stack devloper.",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Enes EYIBILEN",
     animated: {
         first: "I love coding",
         second: "I code cool websites",
-        third: "I develop mobile apps",
+        third: "I develop web apps",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "I`m a Back-end developer specializing in building exceptional digital experiences. Currently, I`m focused on building responsive full-stack web applications.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "A bit about my self",
+    aboutme: "I am passionate about building excellent software that improves the lives of those around me. I specialize in creating software for clients ranging from individuals and small-businesses all the way to large enterprise corporations. What would you do if you had a software expert available at your fingertips?",
 };
 const worktimeline = [{
         jobtitle: "Designer of week",
@@ -37,40 +37,54 @@ const worktimeline = [{
 ];
 
 const skills = [{
-        name: "Python",
+        name: "JavaScript",
         value: 90,
     },
     {
-        name: "Djano",
-        value: 85,
+        name: "Nodejs",
+        value: 90,
     },
     {
-        name: "Javascript",
-        value: 80,
+        name: "TypeScript",
+        value: 70,
     },
     {
         name: "React",
-        value: 60,
+        value: 70,
     },
     {
         name: "Jquery",
-        value: 85,
+        value: 80,
+    },
+    {
+        name: "Github",
+        value: 90,
+    }
+];
+
+const services = [
+    {
+        title: "Back-End",
+        description: "Our back-end development service ensures your applications are robust, secure, and scalable. We specialize in creating efficient server-side logic, integrating databases, and building APIs to power your web and mobile applications seamlessly."
+    },
+    {
+        title: "Front-End",
+        description: "Our front-end development service focuses on creating visually appealing and highly interactive user interfaces. We use the latest technologies to ensure your website or application is responsive, fast, and delivers an exceptional user experience."
+    },
+    {
+        title: "UI & UX Design",
+        description: "Our UI & UX design service aims to create intuitive and engaging user experiences. We combine user research, wireframing, prototyping, and visual design to build interfaces that are not only beautiful but also easy to use and aligned with your business goals."
+    },
+    {
+        title: "WordPress Design",
+        description: "Our WordPress design service helps you create stunning and functional websites using the WordPress platform. From custom themes to plugin development, we ensure your WordPress site is tailored to meet your specific needs and provides a seamless experience for your visitors."
+    },
+    {
+        title: "Web Apps",
+        description: "Our web application development service brings your ideas to life with high-performance, scalable, and secure web applications. We leverage modern frameworks and technologies to build custom solutions that meet your business requirements and deliver a great user experience."
     },
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-];
 
 const dataportfolio = [{
         img: "https://picsum.photos/400/?grayscale",
@@ -86,70 +100,24 @@ const dataportfolio = [{
         img: "https://picsum.photos/400/?grayscale",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    }
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "MDEEyibilen@gmail.com",
+    YOUR_FONE: "+41779427207",
+    description: "Submit The Form.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_ku1e8cr",
+    YOUR_TEMPLATE_ID: "template_wmllufo",
+    YOUR_USER_ID: "BFzFMnsnc64US0xSj",
 };
 
 const socialprofils = {
-    github: "https://github.com",
+    github: "https://github.com/Winfredhades",
     facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
+    linkedin: "https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BVCI%2FQVGYRZSqb8YNJIxfuw%3D%3D",
     twitter: "https://twitter.com",
 };
 export {
